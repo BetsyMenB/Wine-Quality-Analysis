@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66BA1316-8B66-BC2B-52BE-6B6C7865D16E" name="CUSTOMER">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 22:37:06 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerID" id="02C9B7B8-2ECC-9A68-52A9-CA9DD1697F82">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 22:37:55 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_First_Name" id="0E143076-D15F-DC1B-F085-E4FD115BE2CD">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 22:38:45 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Last_Name" id="3178556C-5ABC-1894-3E5A-AA5009E7F866">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 22:39:32 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Street" id="9DAB4542-41F9-8187-CA44-869914066BFD">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 22:40:24 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_City" id="05FA92A9-9ADE-B6F3-879F-8A5A52FA5EF3">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 22:42:25 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_State" id="0620DFF4-141E-FFA8-3A9B-7946776F5453">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 22:42:54 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Zip_Code" id="53DA8317-608D-9171-3EA1-288395140556">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 22:43:12 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Telephone" id="48E01B6C-D6EC-D933-A3C0-B95BB07E6D30">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 22:44:10 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE232B96-F5BB-9E20-E342-9CA21D2698D5" name="CUSTOMER PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 22:38:12 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02C9B7B8-2ECC-9A68-52A9-CA9DD1697F82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

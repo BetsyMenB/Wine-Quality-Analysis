@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOCATION_RATE" directorySegmentName="seg_0" id="2EC17A82-04F6-C7C1-1EDB-B576C30EC4C8">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:09:43 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<sourcePk>A731CC3C-9CE8-D97B-02CE-2A0ABC7D2723</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8E3241EC-260E-D401-A082-155F57BF3BE6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D195F064-FFAD-D984-CA9B-A8153BFBEAB8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

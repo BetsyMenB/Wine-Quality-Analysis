@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LOCATION" directorySegmentName="seg_0" id="2F0BC0D5-DF27-8A08-44B6-8986143526E9">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:51:34 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Location_ID" id="0B48A5E7-869B-A616-0CE5-A389BC3AEEC3">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:51:34 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Location_Zip_Code" id="233D3ED8-193E-46DA-A706-0335C7209073">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:51:34 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Location_State" id="3870F647-4C56-1432-C40C-8C65087541E7">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:51:34 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Location_City" id="48FFDD4C-BA04-D867-98EA-C4AC17191D49">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:51:34 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LOCATION_PK" id="C38D9299-E883-3EA2-8892-46B66682F918">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:51:34 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90D7FCF8-3229-ABB1-60DE-EC47F90FADD9" name="CUSTOMER_LOCATION">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_CustomerID" id="604546DA-CD2A-5BB1-F1D8-14E5A7FBA550">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="699F9A97-135F-2C9D-46D1-2E1C2BAB728D" referredColumn="FE6564F1-9F84-77CC-ECDD-B7E9E4400F09"/>
+</associations>
+</Column>
+<Column name="LOCATION_Location_ID" id="E83F7E57-9EFE-4BF0-64D4-22593053AF68">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D39A02D3-A082-A6CD-9F5F-72E4F201044D" referredColumn="0B48A5E7-869B-A616-0CE5-A389BC3AEEC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6640CFF-4E8A-7107-4DFA-630A1E5E3661" name="CUSTOMER_LOCATION_PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="604546DA-CD2A-5BB1-F1D8-14E5A7FBA550"/>
+<colUsage columnID="E83F7E57-9EFE-4BF0-64D4-22593053AF68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FA4EB74-21B0-15B1-DB85-A3B5D831A73F" name="CUSTOMER_LOCATION_CUSTOMER_FK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>C3913081-921F-048F-6985-9926C2BA153B</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="604546DA-CD2A-5BB1-F1D8-14E5A7FBA550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83B25C5F-267C-91E0-EBC3-4B56C1D94033" name="CUSTOMER_LOCATION_LOCATION_FK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>C3913081-921F-048F-6985-9926C2BA153B</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E83F7E57-9EFE-4BF0-64D4-22593053AF68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

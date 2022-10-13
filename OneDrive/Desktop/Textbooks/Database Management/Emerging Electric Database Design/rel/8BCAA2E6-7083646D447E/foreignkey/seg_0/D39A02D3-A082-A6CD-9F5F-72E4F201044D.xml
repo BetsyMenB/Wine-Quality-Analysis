@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D39A02D3-A082-A6CD-9F5F-72E4F201044D" containerWithKeyObject="90D7FCF8-3229-ABB1-60DE-EC47F90FADD9" localFKIndex="83B25C5F-267C-91E0-EBC3-4B56C1D94033" name="CUSTOMER_LOCATION_LOCATION_FK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>C3913081-921F-048F-6985-9926C2BA153B</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<referredTableLongName>LOCATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F0BC0D5-DF27-8A08-44B6-8986143526E9</referredTableID>
+<keyObject>C38D9299-E883-3EA2-8892-46B66682F918</keyObject>
+<referredKeyID>C38D9299-E883-3EA2-8892-46B66682F918</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Location_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

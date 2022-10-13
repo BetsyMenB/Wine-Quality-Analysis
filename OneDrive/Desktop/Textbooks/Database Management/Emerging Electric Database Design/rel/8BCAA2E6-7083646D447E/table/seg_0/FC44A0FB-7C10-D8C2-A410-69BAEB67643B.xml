@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC44A0FB-7C10-D8C2-A410-69BAEB67643B" name="RATE">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>D195F064-FFAD-D984-CA9B-A8153BFBEAB8</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rate_ID" id="F1DF5A94-9A0A-CEDD-9C2D-8AB91D32FA9E">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>BFE994DB-9C18-3862-445B-27EBF78ABD9A</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rate_Class" id="05AEF43B-426E-6A0A-AB9A-4D47E4ED0642">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>17D150ED-D65A-7E32-8E8C-5E517CF519AD</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rate_Per_KWH" id="C777FDC8-8DCB-8840-1D04-DD925445B384">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>C943CA6B-8477-04AE-CCD2-4808E43D8FBA</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_Location_ID" id="0C9DC6BA-99E0-2280-0999-1A1976F0BD47">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>EDD9414F-A5C6-B314-4955-FC032641415D</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3357C49-347A-07D6-C218-C4034C844D4D" referredColumn="0B48A5E7-869B-A616-0CE5-A389BC3AEEC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DB4A774-27BE-045D-73EE-32111722C01A" name="RATE_LOCATION_FK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>2EC17A82-04F6-C7C1-1EDB-B576C30EC4C8</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C9DC6BA-99E0-2280-0999-1A1976F0BD47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

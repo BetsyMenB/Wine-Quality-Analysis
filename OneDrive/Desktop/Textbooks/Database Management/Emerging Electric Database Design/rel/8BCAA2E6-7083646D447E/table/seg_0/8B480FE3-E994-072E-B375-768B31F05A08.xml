@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B480FE3-E994-072E-B375-768B31F05A08" name="LOCATION_TYPE">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>58F71FFF-A02A-D9CB-3FF1-A19701E2DE7F</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Location_ID" id="0F40A2E0-5A91-5E26-C3A3-992E557E2B93">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>1D34C301-0B52-50E2-398A-5D79DEF9D899</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A63F214-BFE9-DA3F-84C9-F0EC670B1618" referredColumn="0B48A5E7-869B-A616-0CE5-A389BC3AEEC3"/>
+</associations>
+</Column>
+<Column name="Location_Type" id="663A90CE-69EC-C8F0-1228-1F63822B83BF">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>AE6F8120-6142-F79E-3440-66A1D072D93B</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A30DD9E-C6E8-C288-8962-641AA2ADCFC7" name="LOCATION_TYPE_PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>A731CC3C-9CE8-D97B-02CE-2A0ABC7D2723</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F40A2E0-5A91-5E26-C3A3-992E557E2B93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBFF0A47-0B4C-241A-A1A0-331C9579D27B" name="LOCATION_TYPE_LOCATION_FK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>2F7244D3-1AB0-F1E6-51C6-39DA3E1C63DA</generatorID>
+<ownerDesignName>Emerging Electric Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F40A2E0-5A91-5E26-C3A3-992E557E2B93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
