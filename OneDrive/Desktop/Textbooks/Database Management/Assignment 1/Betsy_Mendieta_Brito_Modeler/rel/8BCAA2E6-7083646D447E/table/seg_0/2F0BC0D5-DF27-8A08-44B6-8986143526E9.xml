@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F0BC0D5-DF27-8A08-44B6-8986143526E9" name="LOCATION">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>8E3241EC-260E-D401-A082-155F57BF3BE6</generatorID>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Location_ID" id="0B48A5E7-869B-A616-0CE5-A389BC3AEEC3">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>1D34C301-0B52-50E2-398A-5D79DEF9D899</generatorID>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_Street" id="9E067ED5-262A-B8B0-2A32-EB9B25C796B5">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:13:11 UTC</createdTime>
+<generatorID>38AA892F-D67D-F2FE-B9D7-B99CDAF2A8C7</generatorID>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_City" id="48FFDD4C-BA04-D867-98EA-C4AC17191D49">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>23081AAC-BB97-CE56-1AEC-85E7C95626D2</generatorID>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_State" id="3870F647-4C56-1432-C40C-8C65087541E7">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>99E81A20-A4C5-BF86-85A1-ABB218D48509</generatorID>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_Zip_Code" id="233D3ED8-193E-46DA-A706-0335C7209073">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>3568DDE3-2B90-AEB6-7E71-D918B5B303A8</generatorID>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C38D9299-E883-3EA2-8892-46B66682F918" name="LOCATION_PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:16:36 UTC</createdTime>
+<generatorID>A731CC3C-9CE8-D97B-02CE-2A0ABC7D2723</generatorID>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B48A5E7-869B-A616-0CE5-A389BC3AEEC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMER" directorySegmentName="seg_0" id="5EFC6548-7FCA-5F1B-F213-27520F70EA2D">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Customer_City" id="0148FAAC-2B33-D633-EF5E-ABE6A21C28E4">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_Telephone" id="319E3E8E-41BD-4B03-6BF3-42E9D0E33697">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_Last_Name" id="34926159-9B5C-E80D-010D-7AAF8BFACFE9">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_First_Name" id="981ED12A-653B-54CA-F5F6-F66FEECE52ED">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_State" id="B2892EFE-302A-97EA-D749-D4340EC705C2">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_Zip_Code" id="C030A9FD-2B6B-6E11-9DB0-962FE34B8B0A">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_Street" id="C6451E55-F173-FCB5-6512-37913FE56A02">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CustomerID" id="FE6564F1-9F84-77CC-ECDD-B7E9E4400F09">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_PK" id="38CFF998-C176-630E-0A56-64991EED5685">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMER_LOCATION" directorySegmentName="seg_0" id="90D7FCF8-3229-ABB1-60DE-EC47F90FADD9">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUSTOMER_CustomerID" id="604546DA-CD2A-5BB1-F1D8-14E5A7FBA550">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION_Location_ID" id="E83F7E57-9EFE-4BF0-64D4-22593053AF68">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CUSTOMER_LOCATION_CUSTOMER_FK" id="0FA4EB74-21B0-15B1-DB85-A3B5D831A73F">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CUSTOMER_LOCATION_LOCATION_FK" id="83B25C5F-267C-91E0-EBC3-4B56C1D94033">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_LOCATION_PK" id="F6640CFF-4E8A-7107-4DFA-630A1E5E3661">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 01:45:47 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D195F064-FFAD-D984-CA9B-A8153BFBEAB8" name="RATE">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:04:33 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rate_ID" id="BFE994DB-9C18-3862-445B-27EBF78ABD9A">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:04:48 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rate_Class" id="17D150ED-D65A-7E32-8E8C-5E517CF519AD">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:05:05 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rate_Per_KWH" id="C943CA6B-8477-04AE-CCD2-4808E43D8FBA">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:05:36 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location_ID" id="EDD9414F-A5C6-B314-4955-FC032641415D">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-12 23:09:43 UTC</createdTime>
+<generatorID>2EC17A82-04F6-C7C1-1EDB-B576C30EC4C8</generatorID>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="true"/>
+</engineerTo>
+<referedAttribute>1D34C301-0B52-50E2-398A-5D79DEF9D899</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="064B2A79-B865-94C2-70D4-3BC2BA113D8D" name="RATE PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-10-13 00:15:53 UTC</createdTime>
+<ownerDesignName>Betsy_Mendieta_Brito_Modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8BCAA2E6-EDD4-1E08-C536-7083646D447E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFE994DB-9C18-3862-445B-27EBF78ABD9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
