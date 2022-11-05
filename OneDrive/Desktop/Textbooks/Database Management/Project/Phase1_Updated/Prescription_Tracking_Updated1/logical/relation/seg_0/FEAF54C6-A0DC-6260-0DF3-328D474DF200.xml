@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Patient-Insurance" directorySegmentName="seg_0" id="FEAF54C6-A0DC-6260-0DF3-328D474DF200">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>D8D8B7D4-F439-0100-C307-F833F57FD4D2</importedID>
+<engineerTo>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<sourcePk>32350219-A173-59A6-78A8-3CABE036A42F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>PATIENT</nameOnSource>
+<nameOnTarget>INSURANCECLAIM</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BBB0959F-EF20-7B9A-E084-1A63C862F1CD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5E54544-5E24-898B-F8CB-4688B454A4AC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

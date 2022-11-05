@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5832FFB3-7FF9-4B89-6D31-443DCA30BAA3" name="PATIENT">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>BBB0959F-EF20-7B9A-E084-1A63C862F1CD</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>F0B00142-2387-BF13-A2EB-C6DAB964B03E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PatientId" id="7D218A4F-0432-6E21-2A4A-E892C4EC69E2">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>1189A63A-A9C0-25AF-593A-F70D2964F59C</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>EB3469F3-F95B-7136-47F6-171C0169F1CD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PatientName" id="0C265303-90E6-4774-8709-56393F79D10B">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>661FF42A-8997-50AD-A144-4FD8F2B1683F</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>20B7B2AF-8608-2D39-F93B-595AC4F8CAE6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PatientDOB" id="FB285B89-4875-552C-F421-44D8A704745D">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>A114ABE9-96C5-6FCB-9F56-F05E6F8D89CB</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>21D5C3F3-04AB-8ED5-3173-F3D9FEE28D21</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PatientAddress" id="814ED91E-5C2F-6BF7-952B-035313331EDC">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>03D3E934-7CB9-D281-A92F-81C6667387D9</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>8FDD334A-9E8E-5188-DA99-6D68E320F437</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PatientFamilyMemberName" id="406B9313-743C-7BF9-91B8-616BFE0710B2">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>8E0F8072-37EF-5AC2-CCBB-DED0BED2556C</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>763C2121-E996-F04D-E123-632719216881</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4352A389-48BA-B406-F45E-62138BCCA87A" name="PATIENT_PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>32350219-A173-59A6-78A8-3CABE036A42F</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>2AD444D3-5D4D-55A1-77AA-2225AC92188E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D218A4F-0432-6E21-2A4A-E892C4EC69E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

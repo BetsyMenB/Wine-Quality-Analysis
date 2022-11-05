@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Patient-Perscription" directorySegmentName="seg_0" id="CB4F779C-41D4-64E1-1A38-CBFA3604DE3F">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>56EE2CEF-DBE0-4518-CE2D-35D84FD853B6</importedID>
+<engineerTo>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<sourcePk>32350219-A173-59A6-78A8-3CABE036A42F</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>PATIENT</nameOnSource>
+<nameOnTarget>PRESCRIPTION</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BBB0959F-EF20-7B9A-E084-1A63C862F1CD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B82A3E3D-3C95-6110-056A-9DCAB7E2C780</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

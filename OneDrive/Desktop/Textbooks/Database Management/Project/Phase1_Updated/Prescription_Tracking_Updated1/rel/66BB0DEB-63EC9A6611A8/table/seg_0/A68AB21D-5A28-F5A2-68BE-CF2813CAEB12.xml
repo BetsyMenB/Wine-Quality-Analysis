@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A68AB21D-5A28-F5A2-68BE-CF2813CAEB12" name="PAYMENT">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>49F100BA-7781-E897-98DC-6AD6EFDAA79E</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>92009BEB-CD1B-1966-157E-D66BEC1F6400</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Payment#" id="F9175A3F-4816-06B5-C02B-CF251E2375FF">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>829BC489-7684-EBC6-3C3A-447C79BF39DA</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>F4917125-2059-8F9C-079E-934092ABE72C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentDate" id="B413FE8A-7E7B-8F04-E6FD-D6A4719811E9">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>B5E878FD-D326-1936-DD8B-7C136F0C3F5E</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>3815265A-0E07-0EEC-764D-DD5FCF9AFFB5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentType" id="6F64611B-59E7-50A9-38F4-B8733053E0D7">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>5736C7A2-C5B0-AEF4-B1DB-A6A1FABFA5D9</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>B07166E6-CE47-7985-836C-494D9B9872C6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AmountPaid" id="888B70CD-6EAF-FA1B-C29E-2E61EE8E5229">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>F40CE8EE-AB31-F759-2CDC-BBCD5637411E</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>2A6ACE35-69E8-E3EA-D6A7-2DA7223A9AA5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AmountDue" id="63E8FFAC-2F86-E252-A6D4-18536B44E460">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>C562DDF0-F086-1BF3-A23A-52A288E0500D</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>9237D0F1-EECB-5C32-12FD-3D3F4503D338</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRESCRIPTION_Rx#" id="C9B6B1E0-8F4B-9D24-AFA3-5315A50D72DA">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>F06E6FF1-76D1-CA81-4DF6-A20287C3DC6B</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>17E823C4-BCA8-8727-F282-E60A1BFBAA2B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF40B2CE-D781-2FAA-D601-98262F461965" referredColumn="67EEA763-A5A9-CB1E-381E-268B9CB282C2"/>
+</associations>
+</Column>
+<Column name="INSURANCECLAIM_InsClaim#" id="EDBC5D4A-B347-6EB1-4C01-D797845801C9">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>E50E023C-D647-36B6-91ED-B4FD3A7251BE</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>FFE14B96-776F-5C32-C7B6-FC4682C87A1C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B63DE9FC-699E-42F7-FA30-16CEE600742C" referredColumn="2778D170-AC03-C4E4-738C-5B0178DC9F2C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="670AEFD1-81A2-4749-B001-0B391BA4BF88" name="PAYMENT_PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>D2AAC36F-B87D-2927-1364-665B7182BD40</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>80F75992-5C9D-4601-E814-E6ACF95B9DF9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9175A3F-4816-06B5-C02B-CF251E2375FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFF280F6-2694-11DB-13F4-52C134A5B654" name="PAYMENT_INSURANCECLAIM">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>305294A5-5998-3D6B-184E-46D28F2A987C</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDBC5D4A-B347-6EB1-4C01-D797845801C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52296CF3-D75D-86C2-4B32-BCB73DFA362C" name="PAYMENT_PRESCRIPTION">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>57569A59-A298-D7FC-C56D-2C8A48DEFBD7</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9B6B1E0-8F4B-9D24-AFA3-5315A50D72DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

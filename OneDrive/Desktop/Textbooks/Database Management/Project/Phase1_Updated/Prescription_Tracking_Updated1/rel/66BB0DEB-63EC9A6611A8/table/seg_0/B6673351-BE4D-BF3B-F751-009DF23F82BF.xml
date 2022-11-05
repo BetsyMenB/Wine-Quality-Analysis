@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6673351-BE4D-BF3B-F751-009DF23F82BF" name="INSURANCECLAIM">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>F5E54544-5E24-898B-F8CB-4688B454A4AC</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>6D3CFF68-60FB-28DC-AA19-74F23E776464</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="InsClaim#" id="2778D170-AC03-C4E4-738C-5B0178DC9F2C">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>9D84EBF1-BC91-4795-526A-8DD99985CDAD</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>31BF9F8D-C88E-B991-DB30-E95703242B71</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="InsPolicy#" id="0609DC07-FD95-564A-CCB6-5A16A18C4524">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>4D509464-9651-ED38-D2CC-8D1C8AB2FDE8</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>D13DE741-AF4A-A988-122D-9989A97E1710</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="InsClaimDate" id="350CD436-AB20-1AEF-502F-429EB3153CE0">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>0048B603-1C06-12D9-12AE-895CEE101B46</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>12CC04B0-E8B3-1A6F-2040-4B82D994504A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="InsCompanyName" id="F3FA85EA-EFCF-3614-4207-3AC15D92C639">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>05DBE94D-2F77-E95E-2484-31DD930C6814</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>F1C0E32A-A884-D02E-E261-885C72E1E884</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_PatientId" id="9601025B-503D-1417-65A6-742D8DA38E7C">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>132A70BA-F6C1-73DD-65BB-7A4970E9C150</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>CFA2677F-14F9-4A77-9476-0AAB0A1A72CE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EB27E24-B146-A5D5-95AE-C9BFC8725B9D" referredColumn="7D218A4F-0432-6E21-2A4A-E892C4EC69E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E77FA970-E77E-85C1-6A96-DA44C55C6D58" name="INSURANCECLAIM_PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>62DD00C6-6837-E0C3-D2D8-5032E0589338</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>BBBE8B09-43AD-F1CA-49D4-A4320D5A49EB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2778D170-AC03-C4E4-738C-5B0178DC9F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37FF803E-30FC-390A-0BC6-43851DD132E9" name="INSURANCECLAIM_PATIENT">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>FEAF54C6-A0DC-6260-0DF3-328D474DF200</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9601025B-503D-1417-65A6-742D8DA38E7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

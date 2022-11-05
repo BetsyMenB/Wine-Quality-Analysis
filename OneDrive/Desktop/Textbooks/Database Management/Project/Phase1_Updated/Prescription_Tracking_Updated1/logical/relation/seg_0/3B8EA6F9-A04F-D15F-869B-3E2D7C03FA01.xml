@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name=" PRESCRIPTION - DRUG " directorySegmentName="seg_0" id="3B8EA6F9-A04F-D15F-869B-3E2D7C03FA01">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>E58AC9DA-3C5B-853B-B8F2-B50EDA3FC032</importedID>
+<engineerTo>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>PRESCRIPTION</nameOnSource>
+<nameOnTarget>DRUG</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B82A3E3D-3C95-6110-056A-9DCAB7E2C780</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E36A89C8-8DC2-8C21-AB91-D8E131F81608</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

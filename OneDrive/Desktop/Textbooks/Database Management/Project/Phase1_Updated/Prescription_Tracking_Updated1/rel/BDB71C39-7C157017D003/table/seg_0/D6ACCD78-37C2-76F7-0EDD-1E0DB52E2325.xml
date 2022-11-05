@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6ACCD78-37C2-76F7-0EDD-1E0DB52E2325" name="PRESCRIPTION_-_DRUG">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>18FA4664-A72B-C60E-22C8-87DF190FAE1A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRESCRIPTION_Rx#" id="8AFEA752-3E78-E3BB-13EF-6A3A6C7A3746">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>36C5420C-3D40-990B-EA6E-4C6C0779350C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD49CF61-053A-68CF-56BB-FDCE6FEAD5D0" referredColumn="1E1847DF-0606-ED51-8184-321B890B9062"/>
+</associations>
+</Column>
+<Column name="DRUG_DrugId" id="7BA54206-77AF-5911-989A-5301144DD268">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>89E06B99-F55E-484C-AD40-72A0B9C42E37</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4191E92E-79FC-4646-8C02-C1D4215CC849" referredColumn="7CE49694-77E4-4CBB-89D2-237F478F230F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E8844DF-8717-DAA8-FF4C-0A41ADAD264D" name="PRESCRIPTION_-_DRUG_PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>31CFE6DE-3877-5557-30AC-4AAF4204D3EF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AFEA752-3E78-E3BB-13EF-6A3A6C7A3746"/>
+<colUsage columnID="7BA54206-77AF-5911-989A-5301144DD268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35AD5F2B-DC73-135E-4EC6-4FB53256951B" name="PRESCRIPTION_-_DRUG_DRUG">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>3B8EA6F9-A04F-D15F-869B-3E2D7C03FA01</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BA54206-77AF-5911-989A-5301144DD268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCD7946E-C695-A1F4-058F-0E93678D1E72" name="PRESCRIPTION_-_DRUG_PRESCRIPTION">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>3B8EA6F9-A04F-D15F-869B-3E2D7C03FA01</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AFEA752-3E78-E3BB-13EF-6A3A6C7A3746"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

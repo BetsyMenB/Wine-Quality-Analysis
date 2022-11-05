@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3A39C30-D532-1661-3FB8-BBDB5232FBB5" containerWithKeyObject="EBC7A237-A902-9D0E-4136-C5FFCBA713C8" localFKIndex="24C7FC21-58D4-0E89-0E74-E525AB158937" name="PAYMENT_INSURANCECLAIM">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>305294A5-5998-3D6B-184E-46D28F2A987C</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>A8FA0192-338D-65C0-78FB-B72124B988A5</importedID>
+<referredTableLongName>INSURANCECLAIM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A8DE873D-186A-82BD-AFA8-78B6DC696E45</referredTableID>
+<keyObject>4F5B1C78-FC20-6B95-734F-06E2CDCA3F36</keyObject>
+<referredKeyID>4F5B1C78-FC20-6B95-734F-06E2CDCA3F36</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>InsClaim#</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

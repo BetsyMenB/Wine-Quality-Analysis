@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F673F4A4-2D2F-743F-D0BB-F37FE92FC54C" name="PRESCRIPTION_-_DRUG">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>6B342DCE-E6B3-8DE7-9934-D41F7414F7CA</importedID>
+<ordsAlias>prescription_drug</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRESCRIPTION_Rx#" id="09511794-98EA-963C-8D20-85C4B5A25F7F">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>D013F0FF-D7A8-FEC3-8C43-C058514D6BE6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B78F13D3-63C1-D8A5-DE18-9C8737FAC67F" referredColumn="67EEA763-A5A9-CB1E-381E-268B9CB282C2"/>
+</associations>
+</Column>
+<Column name="DRUG_DrugId" id="154B5EBD-7247-5924-1666-DB81A3A77D5D">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>26DC992A-131E-72E5-E087-1F6583AF0925</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CD91303-CD3F-940C-7576-4A3F0AECA885" referredColumn="D96B9DDC-0DBD-829E-7954-4CDF62C1CF1A"/>
+</associations>
+</Column>
+<Column name="DrugDirection - D*" id="3F28B47C-2045-E876-05BC-7768A6F3F1A1">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>79163E04-1470-2F47-AF3B-9356FCBFFB70</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RxTotalPrice - D*" id="90B280DA-05E4-B749-C73B-E3EDC00CC648">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>31A439E6-B082-D928-121D-1B55DF716538</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RxDrugPrice- D*" id="ED0EAFA4-6637-0867-D44D-9FE49B01BD4A">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>D6702B02-B08D-2C0D-73A5-2B6951D68C80</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RxDrugQuantity - D*" id="9A9B1EA9-6C1E-AE36-B0AF-0DF98E23D300">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>30A8F479-8D91-9442-7077-6FF8E25B3B58</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3A7BE7C-4B2E-4B3D-FC01-0E2D2098CA98" name="PRESCRIPTION_-_DRUG_PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>308CA2C2-701F-621C-328E-9F3CF32ABA05</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09511794-98EA-963C-8D20-85C4B5A25F7F"/>
+<colUsage columnID="154B5EBD-7247-5924-1666-DB81A3A77D5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="749FC5CE-11DB-23E6-CBA4-5D7B66379B04" name="PRESCRIPTION_-_DRUG_PRESCRIPTION">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>3B8EA6F9-A04F-D15F-869B-3E2D7C03FA01</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09511794-98EA-963C-8D20-85C4B5A25F7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC8432EA-FB01-2896-ECEC-1E4067195AC1" name="PRESCRIPTION_-_DRUG_DRUG">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>3B8EA6F9-A04F-D15F-869B-3E2D7C03FA01</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="154B5EBD-7247-5924-1666-DB81A3A77D5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

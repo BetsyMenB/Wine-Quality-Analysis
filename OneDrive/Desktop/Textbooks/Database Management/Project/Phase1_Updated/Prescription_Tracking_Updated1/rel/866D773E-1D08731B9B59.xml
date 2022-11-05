@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="866D773E-C387-B5A7-0923-1D08731B9B59" mainViewID="C8A2F09A-D412-8663-5118-A594526F2FC4">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:52:43 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

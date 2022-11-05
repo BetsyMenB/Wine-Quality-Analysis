@@ -1,0 +1,292 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B82A3E3D-3C95-6110-056A-9DCAB7E2C780" name="PRESCRIPTION ">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>95E8A0FF-BF9A-C0FF-738C-A32B18CF04C2</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rx#" id="A7EFBE7B-0E8A-52F7-5796-C0D44A248D6C">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>574334F3-43E5-89AB-2706-DAFA560CC878</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PrescriptionDate" id="F12EC82F-D19B-E90A-46C3-284B086C2B2D">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>6C26DCD4-E4D4-1D9F-0FC7-54C73BF57AB5</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="#OfRefills" id="B0832D56-BFAC-4209-FBA6-64D6D02BCDE3">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>8BD54DE8-0C1A-B803-5070-6D7DB8ADD355</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="#OfRefillsRemaining" id="675E44AA-CDBD-E519-BE25-9D6E941BC02D">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>E392B72E-2CE5-7C66-BA94-821DAE405D5F</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ControlledSubstance" id="273A46CC-4F9E-9637-A6EC-67F04E11B2BB">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>ED6F5806-8393-2AE3-178D-CE87E5755C9C</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DoctorName" id="3203AB2E-71E2-3A3D-23E9-1E1B5343696E">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>603C09FB-A043-D7AA-EC8E-3F7E38C7CDCD</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DoctorAddress" id="822F21C8-8393-B4AE-4561-A7B156F2C37B">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>F15A102A-68E7-4CD5-BAEC-DD73464A3574</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PharmacistName" id="38B99136-3977-7F24-3688-FBB2E3884A24">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>FD891B99-2165-5D4B-AB30-49854DA037A7</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RxOriginalDate" id="8658D076-6EF0-4BEB-E5C8-94EA22B1B184">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>FBC0191E-2433-E4FA-43D6-BB36BFAE0F98</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RxDateFilled" id="88346563-AC0F-245B-2BE4-0ADD7A108193">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>2C2D43A3-F487-ED83-CAC5-5E7F15490788</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DrugDirection - D*" id="9B49FFE7-9CA4-1BCA-A360-B198F2546F9A">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>D03A5486-C19E-9E56-7ED7-8707E747825D</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RxTotalPrice - D*" id="22A6084E-13CA-9062-1526-DF6E943DB769">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>3757EAEF-699E-F4AC-55E3-2E00994D9FEF</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RxDrugPrice - D*" id="3BE6B77E-8059-2C1B-4A99-369CB38532BB">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>675C727E-96FD-5C29-1FFF-9BC376819D34</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RxDrugQuantity - D*" id="D2A3D9FE-E6EE-B6A0-B3AE-E759BDDE30B1">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>27464653-93E2-B3EB-A6CD-66858FA74B8A</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PatientId" id="C91D7BFB-2370-6B14-B37F-66BC32117029">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>CB4F779C-41D4-64E1-1A38-CBFA3604DE3F</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>66710704-EAE5-A24B-9CD9-8BB61B103A04</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<referedAttribute>1189A63A-A9C0-25AF-593A-F70D2964F59C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EE5A6A9-9F8D-9CA0-ACEE-137390F94083" name="PERSCRIPTION PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>0B22C162-E069-3B73-9A41-F360BE2BA2F4</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7EFBE7B-0E8A-52F7-5796-C0D44A248D6C</attributeRef>
+<attributeRef>C91D7BFB-2370-6B14-B37F-66BC32117029</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

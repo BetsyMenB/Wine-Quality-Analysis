@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF40B2CE-D781-2FAA-D601-98262F461965" containerWithKeyObject="A68AB21D-5A28-F5A2-68BE-CF2813CAEB12" localFKIndex="52296CF3-D75D-86C2-4B32-BCB73DFA362C" name="PAYMENT_PRESCRIPTION">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>57569A59-A298-D7FC-C56D-2C8A48DEFBD7</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>EA9FE3E5-D00C-2A2D-AD0D-EC21E16AA9EE</importedID>
+<referredTableLongName>PRESCRIPTION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19695CAB-BC2D-C5C3-5357-7099654E9100</referredTableID>
+<keyObject>81A9CDB9-A24C-11A5-22E9-91B27AF3C46B</keyObject>
+<referredKeyID>81A9CDB9-A24C-11A5-22E9-91B27AF3C46B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rx#</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

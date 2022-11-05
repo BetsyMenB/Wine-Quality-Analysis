@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49F100BA-7781-E897-98DC-6AD6EFDAA79E" name="PAYMENT">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>B245648E-681D-CB84-5827-C1183C0CBA2B</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Payment#" id="829BC489-7684-EBC6-3C3A-447C79BF39DA">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>6A5B1E4E-B38B-07D1-E8C2-9FCC08A145B4</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentDate" id="B5E878FD-D326-1936-DD8B-7C136F0C3F5E">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>1D0CFD9D-9BAE-1A07-BE6F-893796D0B53F</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentType" id="5736C7A2-C5B0-AEF4-B1DB-A6A1FABFA5D9">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>29E115CA-8056-DBF0-DFEE-E2922B131F6C</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AmountPaid" id="F40CE8EE-AB31-F759-2CDC-BBCD5637411E">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>F4349D42-F094-40D6-AD98-88E008371861</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AmountDue" id="C562DDF0-F086-1BF3-A23A-52A288E0500D">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>CE94B15B-D76C-9FC6-BFD9-29931C3AB16C</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rx#" id="F06E6FF1-76D1-CA81-4DF6-A20287C3DC6B">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>57569A59-A298-D7FC-C56D-2C8A48DEFBD7</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>F7E5F8AE-2CEB-AC3B-3783-64FB4E2BBAA6</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<referedAttribute>A7EFBE7B-0E8A-52F7-5796-C0D44A248D6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InsClaim#" id="E50E023C-D647-36B6-91ED-B4FD3A7251BE">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>305294A5-5998-3D6B-184E-46D28F2A987C</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>62C5E443-DA7B-350C-F1C3-E58ADC403805</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<referedAttribute>9D84EBF1-BC91-4795-526A-8DD99985CDAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PatientId" id="B2E903AC-D527-2476-8AF4-FC3D7C30CD79">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:55:24 UTC</createdTime>
+<generatorID>57569A59-A298-D7FC-C56D-2C8A48DEFBD7</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<referedAttribute>C91D7BFB-2370-6B14-B37F-66BC32117029</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2AAC36F-B87D-2927-1364-665B7182BD40" name="PAYMENT PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>F1978177-949C-3A08-4525-E8D39FAA3272</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>829BC489-7684-EBC6-3C3A-447C79BF39DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

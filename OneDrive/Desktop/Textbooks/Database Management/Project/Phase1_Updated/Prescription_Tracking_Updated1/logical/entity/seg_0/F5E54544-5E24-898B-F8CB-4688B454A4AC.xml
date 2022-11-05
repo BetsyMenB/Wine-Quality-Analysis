@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5E54544-5E24-898B-F8CB-4688B454A4AC" name="INSURANCECLAIM">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>A06D3341-67A3-4B11-2C5B-BA4529E562FF</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="InsClaim#" id="9D84EBF1-BC91-4795-526A-8DD99985CDAD">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>7571F6FA-ABB8-93D4-C96B-EE3A5EAB6F1A</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InsPolicy#" id="4D509464-9651-ED38-D2CC-8D1C8AB2FDE8">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>E1AF955C-B6BE-9E25-50EF-A264B1CB3A94</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InsClaimDate" id="0048B603-1C06-12D9-12AE-895CEE101B46">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>B7354E63-657F-6147-89CB-D4404B76D42A</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InsCompanyName" id="05DBE94D-2F77-E95E-2484-31DD930C6814">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>6672F7A7-FF7D-4C76-81FE-F7852F947110</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PatientId" id="132A70BA-F6C1-73DD-65BB-7A4970E9C150">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<generatorID>FEAF54C6-A0DC-6260-0DF3-328D474DF200</generatorID>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>32826787-A302-7B43-2FCA-BC787D8C66EC</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<referedAttribute>1189A63A-A9C0-25AF-593A-F70D2964F59C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62DD00C6-6837-E0C3-D2D8-5032E0589338" name="CLAIM PK">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:54:24 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<importedID>1AC34A04-07C3-287E-0F5D-B0E7E9666C2C</importedID>
+<engineerTo>
+<item key="BDB71C39-5562-B724-630F-7C157017D003" value="true"/>
+<item key="866D773E-C387-B5A7-0923-1D08731B9B59" value="true"/>
+<item key="66BB0DEB-CA09-CAC8-ECD3-63EC9A6611A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D84EBF1-BC91-4795-526A-8DD99985CDAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Prescription_Tracking_Updated1" id="A3CBBB4B-CE99-63C0-3C0B-2687170EDBED" version="3.5">
+<createdBy>betsy</createdBy>
+<createdTime>2022-11-04 23:52:38 UTC</createdTime>
+<ownerDesignName>Prescription_Tracking_Updated1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A3CBBB4B-CE99-63C0-3C0B-2687170EDBED</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7C37B5CA-6129-6855-43D1-8CF53152B032">
+<designStoragePath>C:\Users\betsy\OneDrive\Desktop\Textbooks\Database Management\Project\Phase1_Updated\Prescription_Tracking_Updated</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
