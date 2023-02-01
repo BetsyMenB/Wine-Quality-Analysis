@@ -1,1 +1,4 @@
 # Wine-Quality-Analysis
+The goal of this python code is to be able to predict if wine quality is good or bad based on predictors that can be found from physicochemical tests utilizing Logistic Regression. Two categories are analyzed: Red wines and White wines. The dataset utilized has 11 predictors and they are all continuous values. The predictor variables are the following: fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulfates, and alcohol. 
+
+This knowledge will be useful for wineries, so they know the necessary characteristics to sell high-quality wines. It would be of interest for them if human quality of tasting can be related to the chemical properties of wine thus the certification, quality assessment and assurance process is more controlled.
